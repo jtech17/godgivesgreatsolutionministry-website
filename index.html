@@ -1,0 +1,103 @@
+<!-- Solution Ministry (GGGSM) One-Page Scrolling Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solution Ministry (GGGSM)</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .pastor-section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .pastor-section img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .pastor-section h3 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      color: #1e3a8a;
+    }
+  </style>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">
+        <img src="images/logo.jpg" alt="Solution Ministry Logo" style="height: 40px; border-radius: 50%;">
+      </a>      
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#sermons">Sermons</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <h1>Welcome to God Gives Great Solution Ministry (GGGSM)</h1>
+    <p>A place of divine encounters, transformation, and raising leaders for the Kingdom. Join us to experience the unfailing love and power of God.</p>
+    <a href="https://www.facebook.com/share/19DgK3KYUc/?mibextid=wwXIfr" class="btn">Learn More</a>
+  </section>
+
+  <section class="pastor-section">
+    <img src="images/prophetess-chika.jpg" alt="Our Pastor">
+    <h3>Our General Overseer</h3>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>God Gives Great Solution Ministry (GGGSM) is a Spirit-led assembly where destinies are aligned with God’s purpose. Our vision is to raise a generation of glory, empowered by the Holy Spirit, established in the Word, and impactful to the nations.</p>
+    <p>Through worship, teachings, prophetic encounters, and prayer, we guide souls into deeper intimacy with Christ. Our mission is to equip believers for leadership, dominion, and fruitful living in every sphere of life.</p>
+  </section>
+
+  <section id="sermons" class="sermons">
+    <h2>Latest Sermons</h2>
+    <div class="sermon-list">
+      <div class="sermon-item">
+        <h3>Why you must be different</h3>
+        <p>April 27, 2025</p>
+      </div>
+      <div class="sermon-item">
+      <h3>Where is the love of christ in you?</h3>
+        <p>April 20, 2025</p>
+      </div>
+      <div class="sermon-item">
+        <h3>Kingdom Leadership Principles</h3>
+        <p>April 6, 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="prayerRequestForm" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Prayer Request" rows="5" required></textarea>
+      <button type="submit" class="btn">Submit Prayer Request</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h3>God Gives Great Solution Ministry (GGGSM)</h3>
+      <p>Our social media handles:</p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+        <a href="https://tiktok.com" target="_blank"><img src="images/tiktok-icon.png" alt="TikTok"></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube-icon.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
